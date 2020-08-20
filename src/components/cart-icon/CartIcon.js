@@ -7,7 +7,7 @@ import './CartIcon.scss';
 
 const CartIcon = ({ toggleCart }) => {
     return(
-        <div className="cart-icon" onClick={toggleCart}>
+        <div className="cart-icon" onClick={() => toggleCart()}>
             <ShoppingIcon className="shopping-icon" />
             <span className="item-count">0</span>
         </div>
