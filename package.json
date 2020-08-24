@@ -1,6 +1,10 @@
 {
   "name": "fab-ecomm",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.x",
+    "yarn": "1.x"
+  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -26,7 +30,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "cd client && npm install && npm install --no-shrinkwrap && npm run build"
   },
   "eslintConfig": {
     "extends": "react-app"
