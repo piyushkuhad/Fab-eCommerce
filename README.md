@@ -1,1 +1,0 @@
-## Fab Ecommerce - an online clothing store
